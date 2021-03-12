@@ -52,3 +52,12 @@ Mkfile.old
 dkms.conf
 
 .config
+
+# Uboot Compile Results
+*.configs
+u-boot
+u-boot.srec
+u-boot.sym
+*.gzip
+*.tmp
+
