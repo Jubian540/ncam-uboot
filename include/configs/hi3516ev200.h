@@ -221,8 +221,8 @@
 
 #if (CONFIG_AUTO_UPDATE == 1)
 #define CONFIG_AUTO_UPDATE_ADAPTATION   1
-/*#define CONFIG_AUTO_SD_UPDATE     1*/
-/*#define CONFIG_AUTO_USB_UPDATE    1*/
+#define CONFIG_AUTO_SD_UPDATE     1
+#define CONFIG_AUTO_USB_UPDATE    1
 
 #ifndef CONFIG_MINI_BOOT
 #define CONFIG_CMD_FAT          1
